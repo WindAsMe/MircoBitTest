@@ -20,7 +20,7 @@ time = 0;
 gestureInput = "";
 gestureCreate = "";
 num = 1;
-Display = grove.createDisplay(DigitalPin.P1, DigitalPin.P15)
+Display = grove.createDisplay(DigitalPin.P1, DigitalPin.P15);
 basic.showString("Ready?");
 basic.forever(() => {
     time = input.runningTime();
