@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="873cf74a-3df7-4af6-a45f-78da2b30c960" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guardian.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rainbow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rotary.js" beforeDir="false" afterPath="$PROJECT_DIR$/Rotary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/speaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shakeCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/shakeCount.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,15 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -73,11 +64,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gesture.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shakeCount.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shakeCount.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rainbow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rainbow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guardian.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guardian.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gesture.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gesture.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ultrasonic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ultrasonic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -104,6 +131,10 @@
         <option value="$PROJECT_DIR$/Rotary.js" />
         <option value="$PROJECT_DIR$/speaker.js" />
         <option value="$PROJECT_DIR$/gesture.js" />
+        <option value="$PROJECT_DIR$/ultrasonic.js" />
+        <option value="$PROJECT_DIR$/shakeCount.js" />
+        <option value="$PROJECT_DIR$/rainbow.js" />
+        <option value="$PROJECT_DIR$/guardian.js" />
       </list>
     </option>
   </component>
@@ -116,11 +147,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="308" />
-    <option name="y" value="95" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="381" />
+    <option name="y" value="28" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -173,16 +204,15 @@
       <workItem from="1531816950598" duration="3563000" />
       <workItem from="1531830401496" duration="105000" />
       <workItem from="1531900083982" duration="1277000" />
-      <workItem from="1531901813619" duration="747000" />
+      <workItem from="1531901813619" duration="4973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5692000" />
+    <option name="totallyTimeSpent" value="9918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="308" y="95" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="381" y="28" width="1400" height="1010" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -191,7 +221,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33034715" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32668883" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,6 +350,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gesture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultrasonic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/speaker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -327,10 +371,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gesture.js">
+    <entry file="file://$PROJECT_DIR$/shakeCount.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guardian.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
