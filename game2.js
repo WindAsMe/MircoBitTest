@@ -1,7 +1,7 @@
-// let Display: grove.TM1637 = null;
+// let Display: grove.TM1637 = null
+let N = 0;
 let gestureCreate = "";
 let num = 0;
-let N = 0;
 let time = 0;
 let gestureInput = "";
 grove.onGesture(GroveGesture.Right, () => {
@@ -22,6 +22,7 @@ gestureCreate = "";
 num = 1;
 Display = grove.createDisplay(DigitalPin.P1, DigitalPin.P15);
 basic.showString("Ready?");
+Display.show(N);
 basic.forever(() => {
     time = input.runningTime();
     if (time < 180 * 1000) {
@@ -42,14 +43,16 @@ basic.forever(() => {
             gestureCreate = "R";
             basic.showString("R")
         }
-        basic.pause(3000)
+        basic.pause(3000);
         if (gestureCreate == gestureInput) {
             N += 1;
             Display.show(N)
         }
+    } else {
+        basic.showString("End!")
     }
-    if (grove.measureInCentimeters(DigitalPin.P0) > 100) {
-        music.beginMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once);
+    if (grove.measureInCentimeters(DigitalPin.P2) > 100) {
+        music.beginMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
         N = 0;
         Display.show(N)
     }
