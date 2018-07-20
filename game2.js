@@ -48,12 +48,13 @@ basic.forever(() => {
             N += 1;
             Display.show(N)
         }
+        if (grove.measureInCentimeters(DigitalPin.P2) > 100) {
+            music.beginMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+            N = 0;
+            Display.show(N)
+        }
     } else {
         basic.showString("End!")
     }
-    if (grove.measureInCentimeters(DigitalPin.P2) > 100) {
-        music.beginMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
-        N = 0;
-        Display.show(N)
-    }
+
 });
